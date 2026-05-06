@@ -29,7 +29,7 @@ type User = {
 
 const user = ref<User | null>({
   id: 3698,
-  name: "Nazar",
+  name: "Aakash",
 });
 
 const { posts, isLoading, error, loadPosts } = usePosts();
@@ -176,7 +176,7 @@ function logout() {
           </div>
 
           <div v-if="sidebarMode === 'none'" class="has-text-grey">
-            Виберіть пост або натисніть Create new post
+            Create new post
           </div>
 
           <div v-else-if="sidebarMode === 'create'">
