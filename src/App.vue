@@ -151,7 +151,7 @@ function logout() {
 
   <div class="container is-fluid py-5">
     <div v-if="!user" class="notification is-warning">
-      Ви вийшли з акаунта. Увійдіть знову, щоб побачити пости.
+      You have logged out. Log in again to see posts.
     </div>
 
     <div v-else class="columns">
